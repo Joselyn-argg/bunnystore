@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bunny Store</title>
+    <!--Favicon-->
+    <link rel="icon" href="./assets/img/favicon.png" />
+    <!--Normalizador de css-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-normalize@2.0.0/modern-normalize.css"
+    />
+    <!--Mi css-->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!--Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome (para iconos) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Nav-->
+    <nav class="navbar">
+      <img src="./assets/img/favicon.png" alt="Logo" class="nav-logo"/>
+      <!-- Checkbox invisible -->
+      <label class="hamburger-btn">☰</label>
+      <!-- Botón visible -->
+      <div class="nav-menu">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Catálogo</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--Search-->
+    <section class="search-container">
+      <div class="search-header">
+        <h1>Bunny Store</h1>
+        <h2><i class="fas fa-cut"></i> Arte y moda, hechos a pulso con amor </h2>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          placeholder="Buscar productos..."
+          class="search-input"
+        />
+        <button class="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </section>
+    <!--Cards-->
+    <main>
+      <section class="products-cards">
+        <!--Card 1-->
+        <div class="product-card">
+          <img
+            class="product-img"
+            src="./assets/img/antifaz.jpg"
+            alt="Antifaz"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Antifaz</h3>
+            <p class="product-desc">Bordado hecho a mano.</p>
+            <p class="product-price">$15.000</p>
+            <button class="product-btn">Ver más</button>
+          </div>
+        </div>
+        <!--Card 2-->
+        <div class="product-card">
+          <img
+            class="product-img"
+            src="./assets/img/blusa-universo.jpg"
+            alt="Blusa Universo"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Blusa Universo</h3>
+            <p class="product-desc">Bordado hecho a mano.</p>
+            <p class="product-price">$33.000</p>
+            <button class="product-btn">Ver más</button>
+          </div>
+        </div>
+        <!--Card 3-->
+        <div class="product-card">
+          <img
+            class="product-img"
+            src="./assets/img/pantalon.jpg"
+            alt="Pantalones"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Pantalones</h3>
+            <p class="product-desc">Pintado a mano.</p>
+            <p class="product-price">$28.000</p>
+            <button class="product-btn">Ver más</button>
+          </div>
+        </div>
+        <!--Card 4-->
+        <div class="product-card">
+          <img
+            class="product-img"
+            src="./assets/img/Chaleco.jpg"
+            alt="Chaleco órganos"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Chaleco órganos</h3>
+            <p class="product-desc">Bordado y aplicaciones hechos a mano.</p>
+            <p class="product-price">$45.000</p>
+            <button class="product-btn">Ver más</button>
+          </div>
+        </div>
+        <!--Card 5-->
+        <div class="product-card">
+          <img
+            class="product-img"
+            src="./assets/img/blusa.jpg"
+            alt="Blusa Corazón"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Blusa Corazón</h3>
+            <p class="product-desc">Bordado hecho a mano.</p>
+            <p class="product-price">$26.000</p>
+            <button class="product-btn">Ver más</button>
+          </div>
+        </div>
+        <!--Card 6-->
+        <div class="product-card">
+          <img
+            class="product-img"
+            src="./assets/img/Chaqueta.jpg"
+            alt="Chaqueta"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Chaqueta</h3>
+            <p class="product-desc">Bordado y aplicaciones hechos a mano.</p>
+            <p class="product-price">$48.000</p>
+            <button class="product-btn">Ver más</button>
+          </div>
+        </div>
+        <!--Card 7-->
+        <div class="product-card">
+          <img
+            class="product-img"
+            src="./assets/img/Poleron.jpg"
+            alt="Polerón"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Polerón</h3>
+            <p class="product-desc">Bordado y aplicaciones hechos a mano.</p>
+            <p class="product-price">$26.000</p>
+            <button class="product-btn">Ver más</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram"
+          ><i class="fab fa-instagram social-icon"></i
+        ></a>
+        <a href="#" aria-label="Facebook"
+          ><i class="fab fa-facebook social-icon"></i
+        ></a>
+        <a href="#" aria-label="WhatsApp"
+          ><i class="fab fa-whatsapp social-icon"></i
+        ></a>
+      </div>
+      <p class="copyright">©BunnyStore</p>
+    </footer>
+  </body>
+</html>
